@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script type="module" src="/src/main.js" defer></script>
+    <script src="https://kit.fontawesome.com/847debfb6c.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="/src/reset.css">
+    <link rel="stylesheet" href="/src/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap" rel="stylesheet">
+    <title>Leetchi</title>
+  </head>
+  <body>
+    <div id="app">
+      <header>
+        <div class="headerLeft">
+          <img src="logo.png">
+          <div class="poppins-regular">
+            <p>Réussir ma cagnotte <i class="fa-solid fa-angle-down"></i></p>
+            <p>Explorer les cagnottes <i class="fa-solid fa-angle-down"></i></p>
+            <p>À propos <i class="fa-solid fa-angle-down"></i></p>
+          </div>
+        </div>
+        <div class="headerRight poppins-regular">
+          <p>Besoin d'aide ?</p>
+          <button class="poppins-strong">Créer une cagnotte</button>
+          <div></div>
+          <div><i class="fa-regular fa-user"></i></div>
+        </div>
+      </header>
+      <main>
+        <div class="cagnotteMain">
+          <div class="columnLeft">
+            <div class="imgCagnotte">
+              <img src="mainImg.webp">
+            </div>
+            <div class="descCagnotte">
+              <h1 class="poppins-strong">Description</h1>
+              <p class="poppins-regular">Mes chers amis… notre université s’effondre. Les murs pleurent, les chaises crient… et le chauffage, lui, a déjà rendu l’âme. Avec seulement 1€...vous pouvez offrir un tableau blanc qui efface vraiment ou du wifi qui ne s’arrête pas en plein partiel.</p>
+              <p class="poppins-mini">Créée le 17 septembre 2025. <a> • Entraide</a></p>
+              <p class="reportCagnotte poppins-strong"><i class="fa-solid fa-triangle-exclamation"></i> Signaler la cagnotte</p>
+            </div>
+          </div>
+
+          <div class="columnRight">
+            <h1 class="poppins-strong">Sauvez les murs de Paris 8</h1>
+            <div class="montantCagnotte"><h1 class="poppins-strong">0€</h1><p class="poppins-regular">récoltés</p></div>
+            <div class="icons poppins-regular">
+              <div class="heartIcon"><i class="fa-regular fa-heart"></i><p class="heartCounter">0</p></div>
+              <div class="commentsIcon"><i class="fa-regular fa-comment"></i><p class="commentCounter">0</p></div>
+              <div class="peopleIcon"><i class="fa-solid fa-users"></i><p class="peopleCounter">0</p></div>
+            </div>
+            <div class="profile">
+              <img>
+              <div>
+                <p class="poppins-mini">Créée par <strong>Arnaud Pasaimé</strong></p><br><p class="poppins-mini">pour Paris 8</p>
+              </div>
+              <div class="activeBtns poppins-regular">
+                <div class="shareBtn"><i class="fa-solid fa-share"></i></div>
+                <div class="likeBtn"><i class="fa-regular fa-heart"></i></div>
+                <a class="donateBtn poppins-strong" href="/reveal.html">Participer</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
