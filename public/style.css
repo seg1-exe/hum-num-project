@@ -216,3 +216,40 @@ footer{
   position: relative;
   bottom: 20px;
 }
+
+.mobileVisible {
+  display: none;
+  opacity: 0;
+}
+
+@media screen and (max-width: 1200px){
+    .pcVisible{
+      display: none;
+      opacity: 0;
+    }
+
+    .mobileVisible{
+      display: flex;
+      opacity: 1;
+    }
+
+    .cagnotteMain{
+      padding: 2% 5%;
+    }
+
+    .columnLeft{
+      width: 60%;
+    }
+
+    .columnRight{
+      height: 50%;
+    }
+
+    .activeBtns>div, .activeBtns>.donateBtn{
+      padding: 18px;
+    }
+
+    main.almarai-regular>div>h1{
+      font-size: 120px;
+    }
+}
